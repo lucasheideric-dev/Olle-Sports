@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Sitemap: https://ollesports.com.br/sitemap.xml
+User-agent: GoogleBot
+Disallow: /admin

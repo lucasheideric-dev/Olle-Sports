@@ -1,0 +1,113 @@
+/* Google Fonts - Poppins */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+.wrapper {
+  position: fixed;
+  bottom: 50px;
+  right: -370px;
+  max-width: 345px;
+  width: 100%;
+  background: #fff;
+  border-radius: 8px;
+  padding: 15px 25px 22px;
+  transition: right 0.3s ease;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+.wrapper.show {
+  right: 20px;
+}
+.wrapper header {
+  display: flex;
+  align-items: center;
+  column-gap: 15px;
+}
+.cookies {
+  color: #012c4d;
+  font-size: 32px;
+}
+header h2 {
+  color: #012c4d;
+  font-weight: 500;
+  font-size: 20px;
+}
+.wrapper .data {
+  margin-top: 16px;
+}
+.wrapper .data p {
+  color: #333;
+  font-size: 16px;
+}
+.data p a {
+  color: #012c4d;
+  text-decoration: none;
+}
+.data p a:hover {
+  text-decoration: underline;
+}
+.wrapper .buttons {
+  margin-top: 16px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.buttons .button {
+  border: none;
+  color: #fff;
+  padding: 8px 0;
+  border-radius: 4px;
+  background: #012c4d;
+  cursor: pointer;
+  width: calc(100% / 2 - 10px);
+  transition: all 0.2s ease;
+}
+.buttons #acceptBtn:hover {
+  background-color: #012c4d;
+}
+#declineBtn {
+  border: 2px solid #012c4d;
+  background-color: #fff;
+  color: #012c4d;
+}
+#declineBtn:hover {
+  background-color: #012c4d;
+  color: #fff;
+}
+
+
+@media(max-width: 640px) {
+
+  .wrapper {
+    position: fixed;
+    bottom: 50px;
+    right: -370px;
+    max-width: 300px!important;
+    width: 100%;
+    background: #fff;
+    border-radius: 8px;
+    padding: 15px 25px 22px;
+    transition: right 0.3s ease;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .wrapper .data p {
+    color: #333;
+    font-size: 11px;
+  }
+
+  .buttons .button {
+    border: none;
+    color: #fff;
+    padding: 2px 0!important;
+    border-radius: 4px;
+    background: #012c4d;
+    cursor: pointer;
+    width: calc(100% / 2 - 10px);
+    transition: all 0.2s ease;
+  }
+
+  .wrapper .data {
+    margin-top: 3px!important;
+  }
+
+}

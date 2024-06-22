@@ -1,0 +1,47 @@
+body {
+  background-color: #08080d;
+  overflow-y: scroll;
+}
+main {
+  width: 40%;
+  border-radius: 15px;
+  background-color: #262626;
+}
+.hidden {
+  display: none!important;
+}
+label {
+  color: rgb(238, 238, 238)!important;
+}
+input {
+  background-color: #4c4c4c!important;
+  border: #08080d!important;
+  color: rgb(238, 238, 238)!important;
+}
+input::placeholder, h2, p {
+  color: rgb(201, 201, 201)!important;
+}
+*:focus {
+  box-shadow: none !important;
+}
+.btn-link {
+  color: rgb(209, 209, 209);
+}
+table, table td {
+  background-color: #494949!important;
+  color: white!important;
+  font-size: 13px!important;
+}
+table th {
+  background-color: #3d3d3d!important;
+  font-size: 13px!important;
+  color: white!important;
+}
+.cel-hightlight {
+  background-color: rgb(9, 170, 9)!important;
+  color: black;
+}
+.top-cel-hightlight {
+  background-color: rgb(6, 73, 6)!important;
+  color: rgb(255, 255, 255);
+}

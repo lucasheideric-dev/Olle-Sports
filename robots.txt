@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /mais-visto/
+Allow: /noticias-recentes/
+Allow: /brasileirao/
+Allow: /copa-brasil/
+Allow: /libertadores/
+Allow: /sul-americana/
+Disallow: /admin
